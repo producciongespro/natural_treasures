@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Egame3</name>
+    <events>
+        <event-block sid="381801356727248">
+            <conditions>
+                <condition id="3" name="On touched object" sid="866990902460997" type="Touch">
+                    <param id="0" name="Object">btnhome3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="359490833880367" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="119663409805265">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="884832546072671" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="890030296239909" type="Audio">
+                    <param id="0" name="Audio file">what_things</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="879050590129091">
+            <conditions>
+                <condition id="3" name="On touched object" sid="669090985367268" type="Touch">
+                    <param id="0" name="Object">btn_start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="506313838447064" type="Audio">
+                    <param id="0" name="Tag">&quot;what_things&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="212692444936011">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="702600780558531" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="856738403209997" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="930532606082453">
+            <conditions>
+                <condition id="-22" name="Else" sid="572412916188977" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="182861256509036" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="466935306637434">
+            <conditions>
+                <condition id="3" name="On touched object" sid="112626217188492" type="Touch">
+                    <param id="0" name="Object">btn_missions3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="954911670087802" type="System">
+                    <param id="0" name="Layout">missions</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="312570192502266">
+            <conditions>
+                <condition id="3" name="On touched object" sid="113084492148971" type="Touch">
+                    <param id="0" name="Object">btn_start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="939568154904849" type="popup_do1">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="6" name="Stop" sid="859597482025086" type="Audio">
+                    <param id="0" name="Tag">&quot;what_things&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="231702557802605">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="112894624208514" type="popimg1">
+                    <param id="0" name="Object">muro2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="247615423505270" type="popup_do1">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="374530734939594" type="btn_start" />
+                <action id="-16" name="Wait" sid="763870445236932" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="0" name="Play" sid="118833820769224" type="Audio">
+                    <param id="0" name="Audio file">p1feed</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="627108791777328">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="219876067217903" type="popimg2">
+                    <param id="0" name="Object">muro2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="440130126177492" type="popup_do2">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="351240955736997" type="btn_start" />
+                <action id="-16" name="Wait" sid="864865252627781" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="876434141216560" type="Audio">
+                    <param id="0" name="Audio file">p2wastes</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="900585899897268">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="879047682934726" type="popimg3">
+                    <param id="0" name="Object">muro2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="630212275809296" type="popup_do3">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="733867641529447" type="btn_start" />
+                <action id="-16" name="Wait" sid="420049620255263" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="391676777570972" type="Audio">
+                    <param id="0" name="Audio file">p3recycle</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="156398311695009">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="839224252292510" type="popimg4">
+                    <param id="0" name="Object">muro2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="561664345073904" type="popup_do4">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="416469349280450" type="btn_start" />
+                <action id="-16" name="Wait" sid="961650042100488" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="533864126378943" type="Audio">
+                    <param id="0" name="Audio file">p4Pickup</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="861030254018440">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="873854846343730" type="popimg5">
+                    <param id="0" name="Object">muro2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="770249693497289" type="popup_do5">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="995975721273082" type="btn_start" />
+                <action id="-16" name="Wait" sid="967237154807880" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="193731928864936" type="Audio">
+                    <param id="0" name="Audio file">p5hunt</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="644984022065128">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="817025570733131" type="popimg6">
+                    <param id="0" name="Object">muro2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="923709983918847" type="popup_do6">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="542643339132629" type="btn_start" />
+                <action id="-16" name="Wait" sid="232755899054004" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="150725117686266" type="Audio">
+                    <param id="0" name="Audio file">p6take</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="683389904855677">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="464947602326089" type="popimg7">
+                    <param id="0" name="Object">muro2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="486767756412426" type="popup_do7">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="250119269447185" type="btn_start" />
+                <action id="-16" name="Wait" sid="743517656508329" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="675621904447510" type="Audio">
+                    <param id="0" name="Audio file">p7leave</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="154578198997683">
+            <conditions>
+                <condition id="3" name="On touched object" sid="640112890260553" type="Touch">
+                    <param id="0" name="Object">btn_dont1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="766831455917076" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="106896720939638" type="Audio">
+                    <param id="0" name="Audio file">verygood (2)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="508414375324191" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="439825878659905" type="popup_do2">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="153538924461948" type="btn_do1" />
+                <action id="-9" name="Destroy" sid="649243027755006" type="btn_dont1" />
+            </actions>
+        </event-block>
+        <event-block sid="846868228154104">
+            <conditions>
+                <condition id="3" name="On touched object" sid="921285268059782" type="Touch">
+                    <param id="0" name="Object">btn_do1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="732329453471777" type="Audio">
+                    <param id="0" name="Audio file">oops wrong choise</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="164257158191636" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="817129535339343" type="popup_do2">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="357078196668690" type="btn_do1" />
+                <action id="-9" name="Destroy" sid="154312075172481" type="btn_dont1" />
+            </actions>
+        </event-block>
+        <event-block sid="915464851993945">
+            <conditions>
+                <condition id="3" name="On touched object" sid="115771344925352" type="Touch">
+                    <param id="0" name="Object">btn_dont2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="741420558393129" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="756308539045293" type="Audio">
+                    <param id="0" name="Audio file">excellent</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="279485194386131" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="687577906084928" type="popup_do3">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="155900719836426" type="btn_do2" />
+                <action id="-9" name="Destroy" sid="254783178503281" type="btn_dont2" />
+            </actions>
+        </event-block>
+        <event-block sid="704381844196094">
+            <conditions>
+                <condition id="3" name="On touched object" sid="948302645678583" type="Touch">
+                    <param id="0" name="Object">btn_do2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="610055296970530" type="Audio">
+                    <param id="0" name="Audio file">oops wrong choise</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="299399804763893" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="295924365244319" type="popup_do3">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="108937798030188" type="btn_do2" />
+                <action id="-9" name="Destroy" sid="216243226592008" type="btn_dont2" />
+            </actions>
+        </event-block>
+        <event-block sid="746665008805076">
+            <conditions>
+                <condition id="3" name="On touched object" sid="242370040094943" type="Touch">
+                    <param id="0" name="Object">btn_do3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="884235805222385" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="711409460833068" type="Audio">
+                    <param id="0" name="Audio file">good job</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="112208470192697" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="837907479428735" type="popup_do4">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="270813430570143" type="btn_do3" />
+                <action id="-9" name="Destroy" sid="674857818920811" type="btn_dont3" />
+            </actions>
+        </event-block>
+        <event-block sid="442024060170013">
+            <conditions>
+                <condition id="3" name="On touched object" sid="188244674198737" type="Touch">
+                    <param id="0" name="Object">btn_dont3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="943559275005936" type="Audio">
+                    <param id="0" name="Audio file">oops wrong choise</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="330641208670273" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="733043330956491" type="popup_do4">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="794468117821023" type="btn_do3" />
+                <action id="-9" name="Destroy" sid="585956617369734" type="btn_dont3" />
+            </actions>
+        </event-block>
+        <event-block sid="921793938204849">
+            <conditions>
+                <condition id="3" name="On touched object" sid="637369951281959" type="Touch">
+                    <param id="0" name="Object">btn_do4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="612332427271032" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="661410034233438" type="Audio">
+                    <param id="0" name="Audio file">excellentjob</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="807073170973088" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="574546818657151" type="popup_do5">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="284853160158681" type="btn_do4" />
+                <action id="-9" name="Destroy" sid="133920243364614" type="btn_dont4" />
+            </actions>
+        </event-block>
+        <event-block sid="377272460306174">
+            <conditions>
+                <condition id="3" name="On touched object" sid="401500425135894" type="Touch">
+                    <param id="0" name="Object">btn_dont4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="105927896514609" type="Audio">
+                    <param id="0" name="Audio file">oops wrong choise</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="615272894505631" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="860395175636289" type="popup_do5">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="258394046061067" type="btn_do4" />
+                <action id="-9" name="Destroy" sid="797023718188888" type="btn_dont4" />
+            </actions>
+        </event-block>
+        <event-block sid="778272962455089">
+            <conditions>
+                <condition id="3" name="On touched object" sid="719227166697701" type="Touch">
+                    <param id="0" name="Object">btn_dont5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="772802880263297" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="280562926762479" type="Audio">
+                    <param id="0" name="Audio file">verygood (2)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="573431386449570" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="454726106731371" type="popup_do6">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="946919940093136" type="btn_do5" />
+                <action id="-9" name="Destroy" sid="910681138983921" type="btn_dont5" />
+            </actions>
+        </event-block>
+        <event-block sid="838699490385448">
+            <conditions>
+                <condition id="3" name="On touched object" sid="299007243378604" type="Touch">
+                    <param id="0" name="Object">btn_do5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="182130460766227" type="Audio">
+                    <param id="0" name="Audio file">oops wrong choise</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="156219640462705" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="826171809748847" type="popup_do6">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="362599537698593" type="btn_do5" />
+                <action id="-9" name="Destroy" sid="917582052085750" type="btn_dont5" />
+            </actions>
+        </event-block>
+        <event-block sid="121231414919520">
+            <conditions>
+                <condition id="3" name="On touched object" sid="795075198931515" type="Touch">
+                    <param id="0" name="Object">btn_dont6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="772730784262880" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="627437566440434" type="Audio">
+                    <param id="0" name="Audio file">good job</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="458671329856136" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="274500822094812" type="popup_do7">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="909676242590103" type="btn_do6" />
+                <action id="-9" name="Destroy" sid="704252814854549" type="btn_dont6" />
+            </actions>
+        </event-block>
+        <event-block sid="879949108825694">
+            <conditions>
+                <condition id="3" name="On touched object" sid="822880951965887" type="Touch">
+                    <param id="0" name="Object">btn_do6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="292726665493104" type="Audio">
+                    <param id="0" name="Audio file">oops wrong choise</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="322040849968546" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="367197951087186" type="popup_do7">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="312566967319984" type="btn_do6" />
+                <action id="-9" name="Destroy" sid="250461378239963" type="btn_dont6" />
+            </actions>
+        </event-block>
+        <event-block sid="429931608484494">
+            <conditions>
+                <condition id="3" name="On touched object" sid="201797277058610" type="Touch">
+                    <param id="0" name="Object">btn_dont7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="824951355634528" type="Audio">
+                    <param id="0" name="Audio file">excellentjob</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="417354726716336" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="831879582892007" type="Function">
+                    <param id="0" name="Name">&quot;endgame2&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="198233317417085">
+            <conditions>
+                <condition id="3" name="On touched object" sid="708861869070036" type="Touch">
+                    <param id="0" name="Object">btn_do7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="537002141886118" type="Audio">
+                    <param id="0" name="Audio file">oops wrong choise</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="215075583768310" type="Function">
+                    <param id="0" name="Name">&quot;endgame2&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="888771598357425">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="230528922920430" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="904171521966406" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="391064828089203">
+            <conditions>
+                <condition id="0" name="On function" sid="786629161382081" type="Function">
+                    <param id="0" name="Name">&quot;endgame2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="923591527216853" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="528644460417750">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="594403432406793" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="643462601119678" type="System">
+                            <param id="0" name="Layout">gameoverwinDo</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="349946148390050">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="687177120892254" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="662441936235089" type="System">
+                            <param id="0" name="Layout">gameoverloseDo</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Egameoverwindo</name>
+    <events>
+        <event-block sid="461492047451852">
+            <conditions>
+                <condition id="3" name="On touched object" sid="822295467152428" type="Touch">
+                    <param id="0" name="Object">missions2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="811049397005579" type="System">
+                    <param id="0" name="Layout">missions</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="381934506738454">
+            <conditions>
+                <condition id="3" name="On touched object" sid="508024116342739" type="Touch">
+                    <param id="0" name="Object">btn_tryagain55</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="399379907695604" type="System">
+                    <param id="0" name="Layout">game3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="114069452081622">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="992486090979894" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="397574071536957" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="243720986762434">
+            <conditions>
+                <condition id="-22" name="Else" sid="762176768070217" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="224090022646202" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

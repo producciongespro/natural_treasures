@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Emenu</name>
+    <events>
+        <variable comment="variable que almacena puntaje del juego" constant="0" name="Score" sid="555085353816239" static="0" type="number">0</variable>
+        <event-block sid="226742715673106">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="857724523491421" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="583504979406432" type="Audio">
+                    <param id="0" name="Audio file">bosque</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;bosque&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="756416683344712">
+            <conditions>
+                <condition id="3" name="On touched object" sid="985026676413969" type="Touch">
+                    <param id="0" name="Object">Botonera</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="229153825070437" type="Audio">
+                    <param id="0" name="Tag">&quot;bosque&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="956505819503494">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="240072336014875" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="779991911365108" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="272354820427849" type="bird1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="175393141225623">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="850619185124920" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="256852511842464" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="694528030345834" type="bird2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="808299802349890">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="763824544972453" type="Mouse">
+                    <param id="0" name="Object">btn_intro1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="536727599454713" type="btn_intro1">
+                    <param id="0" name="Animation">&quot;btn_intro2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="542906976106731">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="689583079457383" type="Mouse">
+                    <param id="0" name="Object">btn_intro1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="964521678327177" type="btn_intro1">
+                    <param id="0" name="Animation">&quot;btn_intro1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="138971981298969">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="454497365446341" type="Mouse">
+                    <param id="0" name="Object">btn_miss1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="485320507020392" type="btn_miss1">
+                    <param id="0" name="Animation">&quot;btn_miss2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="414461031168949">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="731879834988159" type="Mouse">
+                    <param id="0" name="Object">btn_miss1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="857778410375076" type="btn_miss1">
+                    <param id="0" name="Animation">&quot;btn_miss1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="759263162603283">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="693789477216769" type="Mouse">
+                    <param id="0" name="Object">btn_rew1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="851834415432969" type="btn_rew1">
+                    <param id="0" name="Animation">&quot;btn_rew2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="198210066497738">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="569450482621028" type="Mouse">
+                    <param id="0" name="Object">btn_rew1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="606568012803470" type="btn_rew1">
+                    <param id="0" name="Animation">&quot;btn_rew1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="508728596806608">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="488817629998909" type="Mouse">
+                    <param id="0" name="Object">btn_cre1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="152381876870717" type="btn_cre1">
+                    <param id="0" name="Animation">&quot;btn_cre2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="787052927021238">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="402847858510181" type="Mouse">
+                    <param id="0" name="Object">btn_cre1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="585399315506975" type="btn_cre1">
+                    <param id="0" name="Animation">&quot;btn_cre1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="975824009983751">
+            <conditions>
+                <condition id="3" name="On touched object" sid="310109570452242" type="Touch">
+                    <param id="0" name="Object">btn_intro1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="584707733856361" type="System">
+                    <param id="0" name="Layout">intro</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="248188020400261">
+            <conditions>
+                <condition id="3" name="On touched object" sid="576374137384778" type="Touch">
+                    <param id="0" name="Object">btn_miss1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="825144878879599" type="System">
+                    <param id="0" name="Layout">missions</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="248047605012297">
+            <conditions>
+                <condition id="3" name="On touched object" sid="562747799420362" type="Touch">
+                    <param id="0" name="Object">btn_rew1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="684155015231322" type="System">
+                    <param id="0" name="Layout">rewards</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="878137728618147">
+            <conditions>
+                <condition id="3" name="On touched object" sid="184674873975432" type="Touch">
+                    <param id="0" name="Object">btn_cre1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="780096054307409" type="System">
+                    <param id="0" name="Layout">credits</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="200480647608693">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="602157951024955" type="oso">
+                    <param id="0" name="Object">muro1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="103816782412499" type="oso">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="868659971777524" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="439700995843282" type="oso">
+                    <param id="0" name="Speed">oso.Bullet.Speed * -1</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="757215335647745" type="oso">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="316970963923135">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="543530705958939" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="531554949894668" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="792145549184524">
+            <conditions>
+                <condition id="-22" name="Else" sid="767626929004445" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="207043546761278" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="872870947750470">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="985429914884754" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_intro1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="903589952307932" type="Audio">
+                    <param id="0" name="Audio file">intro</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="612289300264071">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="598532536510505" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_miss1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="786368797828044" type="Audio">
+                    <param id="0" name="Audio file">missions</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="194359194054979">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="765692024078888" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_cre1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="750942993524153" type="Audio">
+                    <param id="0" name="Audio file">credits</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="230916655231611">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="897030287510021" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_rew1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="762881346126498" type="Audio">
+                    <param id="0" name="Audio file">rewards</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Egame2</name>
+    <events>
+        <event-block sid="937131017598472">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="241931177504902" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="194828918141839" type="Audio">
+                    <param id="0" name="Audio file">jungle_monkeys</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;jungle_monkeys&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="798172163154481">
+            <conditions>
+                <condition id="3" name="On touched object" sid="984267484004626" type="Touch">
+                    <param id="0" name="Object">link1g2intro</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="875673263570219" type="System">
+                    <param id="0" name="Layout">game2p2</param>
+                </action>
+                <action id="6" name="Stop" sid="880282583905280" type="Audio">
+                    <param id="0" name="Tag">&quot;jungle_monkeys&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="345794903488418">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="827762437490237" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btnhome99</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="207268330101140" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="843782607694778">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="785455161353103" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="572398411714035" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="264386276471431">
+            <conditions>
+                <condition id="-22" name="Else" sid="744585244468183" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="662207860685003" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="193855439297352">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="785494977898477" type="Mouse">
+                    <param id="0" name="Object">btnhome99</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="644066290732913" type="btnhome99">
+                    <param id="0" name="Animation">&quot;home2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="508128895388661">
+            <conditions>
+                <condition id="-22" name="Else" sid="606081094221080" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="984565834150477" type="btnhome99">
+                    <param id="0" name="Animation">&quot;home&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Egameover2win</name>
+    <events>
+        <event-block sid="514963858504801">
+            <conditions>
+                <condition id="3" name="On touched object" sid="309107252415718" type="Touch">
+                    <param id="0" name="Object">missions66</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="371536308337756" type="System">
+                    <param id="0" name="Layout">missions</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="107484368245123">
+            <conditions>
+                <condition id="3" name="On touched object" sid="593703978549828" type="Touch">
+                    <param id="0" name="Object">btn_tryagain11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="511764693658712" type="System">
+                    <param id="0" name="Layout">game2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="404968316409486">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="555038245185929" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="994736341935507" type="Audio">
+                    <param id="0" name="Audio file">excellentjob</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="538720854545144">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="750937488127894" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="764589348855659" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="393204140292750">
+            <conditions>
+                <condition id="-22" name="Else" sid="932345612244078" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="595341704199239" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

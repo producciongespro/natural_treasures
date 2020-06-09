@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Egame2p2</name>
+    <events>
+        <event-block sid="427719685623616">
+            <conditions>
+                <condition id="3" name="On touched object" sid="333074679071853" type="Touch">
+                    <param id="0" name="Object">opcion1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="323884599982099">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="850616264222002" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="425805202115766" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="177820116569035" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="205524739815353" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="292543725784213" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Play" sid="899862935542339" type="Audio">
+                            <param id="0" name="Audio file">who_protect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="408130840665787">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="811435103599652" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="222735811733344" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="883976591352286" type="Audio">
+                            <param id="0" name="Audio file">you did it</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="658859734221561" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="294240460955763" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="926419371166305" type="Audio">
+                            <param id="0" name="Audio file">where_ginormous</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="181933865824473" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="822527242025685" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Call function" sid="380375828035223" type="Function">
+                            <param id="0" name="Name">&quot;brincarMono&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="340572633281848">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="284908660826633" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="455716876917744" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="546865490708417" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="562991891550711" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p4&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="607087152207205" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="983357554428729" type="Audio">
+                            <param id="0" name="Audio file">volcanoes</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="191352792209057" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="105850096955828">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="132052511366369" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="801598268229359" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="688809626694425" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="924621378326158" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p5&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="256773693765085" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="370710231955300" type="Audio">
+                            <param id="0" name="Audio file">endangered</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="254308339758469" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="797456199180251">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="277968876846693" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="619882327701076" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="158330887721837" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="138428800980893" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="266016663932209" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="389631757062613" type="Function">
+                            <param id="0" name="Name">&quot;endGame&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="107182187024633">
+            <conditions>
+                <condition id="3" name="On touched object" sid="839243145592422" type="Touch">
+                    <param id="0" name="Object">opcion2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="162126212501110">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="238196993396717" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="620151629657234" type="Audio">
+                            <param id="0" name="Audio file">excellent</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="914553060444339" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="256782504925938" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="218011416203841" type="Audio">
+                            <param id="0" name="Audio file">who_protect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="812143909724409" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="641153635654304" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="696606678912532" type="Function">
+                            <param id="0" name="Name">&quot;brincarMono&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="215536697452229">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="809076106503360" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="763259086016557" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="605014097513701" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="614376334187298" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="223605874198779" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="777904565548098" type="Audio">
+                            <param id="0" name="Audio file">where_ginormous</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="102625459636399" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="635630878542499">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="239317973939292" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="598913350322345" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="246459193176076" type="Audio">
+                            <param id="0" name="Audio file">verygood (2)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="713436542112297" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p4&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="347849720237356" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="654609165991273" type="Audio">
+                            <param id="0" name="Audio file">volcanoes</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="151730891785733" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="655107725386747" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="581073309556980" type="Function">
+                            <param id="0" name="Name">&quot;brincarMono&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="186836518427232">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="649151106220383" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="214336923023269" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="741541274343596" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="637286763513990" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p5&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="818716581587257" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="205223887818763" type="Audio">
+                            <param id="0" name="Audio file">endangered</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="150840033228663" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="710407518821917">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="632150588878782" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="131342704094147" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="673927478576178" type="Audio">
+                            <param id="0" name="Audio file">you did it</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="543733852398312" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="961665582340306" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="169917997066560" type="Function">
+                            <param id="0" name="Name">&quot;brincarMono&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="943039255284550" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="334749960416040" type="Function">
+                            <param id="0" name="Name">&quot;endGame&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="426585013273440">
+            <conditions>
+                <condition id="3" name="On touched object" sid="681440156276498" type="Touch">
+                    <param id="0" name="Object">opcion3</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="421923029937094">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="459147217229385" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="629817572685616" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="919929953151339" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="103511690002072" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="413612947232804" type="Audio">
+                            <param id="0" name="Audio file">who_protect</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="708124372858736" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="759342662065410">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="627333193985920" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="739360009378724" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="212036437783327" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="535856228041183" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p3&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="708383504646125" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="234087940786898" type="Audio">
+                            <param id="0" name="Audio file">where_ginormous</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="733334651697689" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="799562796302120">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="289450839938259" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="175318450237158" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="831525454494083" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="402861005660543" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p4&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="382474569192614" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="841454646747104" type="Audio">
+                            <param id="0" name="Audio file">volcanoes</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="394069523728601" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="159264679857086">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="518327258739398" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="604300546898504" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="421853194923853" type="Audio">
+                            <param id="0" name="Audio file">excellent</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="555169703426154" type="visorpreguntas">
+                            <param id="0" name="Animation">&quot;p5&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="811595756955101" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="204599393211250" type="Audio">
+                            <param id="0" name="Audio file">endangered</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="102751906497458" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="348609481669623" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="834305818169848" type="Function">
+                            <param id="0" name="Name">&quot;brincarMono&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="870634975128719">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="885880315671506" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="204072026274383" type="visorpreguntas">
+                            <param id="0" name="Instance variable">pregunta</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="209246633878078" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="246716828479322" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="924100754517206" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="258538128944591" type="Function">
+                            <param id="0" name="Name">&quot;endGame&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="608243975330942">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="391899309910510" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="387398211082681" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="283436533472278">
+            <conditions>
+                <condition id="-22" name="Else" sid="964751985883716" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="229194225167732" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="878584198017929">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="543670255360127" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="654558155435933" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Play" sid="157386089890070" type="Audio">
+                    <param id="0" name="Audio file">where_isCarara</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="111430764931630" title="Set up">
+            <sub-events>
+                <event-block sid="286226334633836">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="446058433292428" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="792627572766428" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="545220618756874" title="functions">
+            <sub-events>
+                <event-block sid="468914546917377">
+                    <conditions>
+                        <condition id="0" name="On function" sid="556844229759731" type="Function">
+                            <param id="0" name="Name">&quot;brincarMono&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="374624617496083">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="272910591562748" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="911074102333859" type="mono1A">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="926417374837557" type="mono1b">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="511835111427454">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="277195465904539" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="326505065058891" type="mono2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="257877770763322" type="mono1b">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="124710292840428">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="353244916678302" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="516832207860970" type="mono3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="396437977361610" type="mono2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="531582245493509">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="425335012474144" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="641525949499792" type="mono4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="100834432535687" type="mono3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="696039170553286">
+                    <conditions>
+                        <condition id="0" name="On function" sid="771028044226904" type="Function">
+                            <param id="0" name="Name">&quot;endGame&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="264247296365031">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="470459801356368" type="System">
+                                    <param id="0" name="Variable">Score</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="157755952672872" type="System">
+                                    <param id="0" name="Layout">gameover2win</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="165042506070556">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="998447914424289" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="190470376825174" type="System">
+                                    <param id="0" name="Layout">gameover2lost</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

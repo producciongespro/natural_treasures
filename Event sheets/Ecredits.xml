@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Ecredits</name>
+    <events>
+        <event-block sid="138465125642102">
+            <conditions>
+                <condition id="3" name="On touched object" sid="413157751523129" type="Touch">
+                    <param id="0" name="Object">btn_home100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="408807435293946" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="189275701845227">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="204185545804503" type="Mouse">
+                    <param id="0" name="Object">btn_home100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="140502387972465" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="189711335518906">
+            <conditions>
+                <condition id="-22" name="Else" sid="915083610747148" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="412984653941582" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="150000659702381">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="491412464054029" type="Mouse">
+                    <param id="0" name="Object">btn_home100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="751860910350647" type="btn_home100">
+                    <param id="0" name="Animation">&quot;home2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="353861313733184">
+            <conditions>
+                <condition id="-22" name="Else" sid="402506200106954" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="490669848801232" type="btn_home100">
+                    <param id="0" name="Animation">&quot;home&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

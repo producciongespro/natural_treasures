@@ -1,0 +1,1557 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Egame1</name>
+    <events>
+        <event-block sid="520184045465962">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="988336900629674" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="223078301692696" type="TODASG1">
+                    <param id="0" name="X">1718</param>
+                    <param id="1" name="Y">384</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="177049515503175">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="774353241137280" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="645594727600547" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="768427959619079">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="309419912469608" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="513271729572736" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="984354582464181">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="961241911619916" type="Mouse">
+                    <param id="0" name="Object">btnstart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="580629048817491" type="btnstart">
+                    <param id="0" name="Animation">&quot;start2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="233781934357136">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="660707523400250" type="Mouse">
+                    <param id="0" name="Object">btnstart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="547453261166197" type="btnstart">
+                    <param id="0" name="Animation">&quot;start&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="738315933285374">
+            <conditions>
+                <condition id="3" name="On touched object" sid="638072149684992" type="Touch">
+                    <param id="0" name="Object">missions4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="937743857814149" type="System">
+                    <param id="0" name="Layout">missions</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="511449816145047">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="913398417267915" type="Mouse">
+                    <param id="0" name="Object">fondogame1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="641063125269414" type="cuadro">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="732795382999879" title="Mouseover botones">
+            <sub-events>
+                <event-block sid="826616288455932">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="356326891217797" type="Mouse">
+                            <param id="0" name="Object">btn_corco</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="329798247757093" type="btn_corco">
+                            <param id="0" name="Animation">&quot;corco&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="257218196824317">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="283889052601667" type="Mouse">
+                            <param id="0" name="Object">btnrincon</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="750592699353620" type="btnrincon">
+                            <param id="0" name="Animation">&quot;rincon&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="770820203438957">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="601939680022397" type="Mouse">
+                                    <param id="0" name="Object">btnpoas</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="902913459390046" type="btnpoas">
+                                    <param id="0" name="Animation">&quot;poas2&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="566935500717152">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="694574646990340" type="Mouse">
+                                    <param id="0" name="Object">btnpoas</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="296523250008308" type="btnpoas">
+                                    <param id="0" name="Animation">&quot;poas&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="146644910461127">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="659222270241651" type="Mouse">
+                            <param id="0" name="Object">btnirazu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="118902627803341" type="btnirazu">
+                            <param id="0" name="Animation">&quot;irazu2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="386151265862463">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="626181557617993" type="Mouse">
+                            <param id="0" name="Object">btnirazu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="639426769195024" type="btnirazu">
+                            <param id="0" name="Animation">&quot;irazu&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="302778782420304">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="242802278274734" type="Mouse">
+                            <param id="0" name="Object">btnbau</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="740965952270347" type="btnbau">
+                            <param id="0" name="Animation">&quot;bau2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="502937962461887">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="863397115915624" type="Mouse">
+                            <param id="0" name="Object">btnbau</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="172532901689777" type="btnbau">
+                            <param id="0" name="Animation">&quot;bau&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="990656746239273">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="405346897118633" type="Mouse">
+                            <param id="0" name="Object">btnrincon1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="438631503737584" type="btnrincon1">
+                            <param id="0" name="Animation">&quot;rincon2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="267334447392691">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="961085424332546" type="Mouse">
+                            <param id="0" name="Object">btnrincon1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="776289225734792" type="btnrincon1">
+                            <param id="0" name="Animation">&quot;rincon&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="514725230967273">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="948210298288008" type="Mouse">
+                            <param id="0" name="Object">btn_santaro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="133033921700826" type="btn_santaro">
+                            <param id="0" name="Animation">&quot;rosa2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="776581241514036">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="501823778406338" type="Mouse">
+                            <param id="0" name="Object">btn_santaro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="202407571203387" type="btn_santaro">
+                            <param id="0" name="Animation">&quot;rosa&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="143554228203546">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="999319364172927" type="Mouse">
+                            <param id="0" name="Object">btn_tapanti</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="120462080727821" type="btn_tapanti">
+                            <param id="0" name="Animation">&quot;tapanti2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="687251045472208">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="820741426845468" type="Mouse">
+                            <param id="0" name="Object">btn_tapanti</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="302230140601007" type="btn_tapanti">
+                            <param id="0" name="Animation">&quot;tapanti&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="230625642937737">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="258538138466013" type="Mouse">
+                            <param id="0" name="Object">btntortu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="595596031746781" type="btntortu">
+                            <param id="0" name="Animation">&quot;tortuguero2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="459133359081801">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="571083749612723" type="Mouse">
+                            <param id="0" name="Object">btntortu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="318803698783373" type="btntortu">
+                            <param id="0" name="Animation">&quot;tortuguero&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="296516271186692">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="407947788972302" type="Mouse">
+                            <param id="0" name="Object">btnrincon</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="595990595583115" type="btnrincon">
+                            <param id="0" name="Animation">&quot;rincon2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="924662255457621">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="628080270521077" type="Mouse">
+                            <param id="0" name="Object">btnchirri</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="546775726810150" type="btnchirri">
+                            <param id="0" name="Animation">&quot;chirri2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="289895693124535">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="769055064339533" type="Mouse">
+                            <param id="0" name="Object">btnchirri</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="188502974246390" type="btnchirri">
+                            <param id="0" name="Animation">&quot;chirri&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="803314570457913">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="927485969656963" type="Mouse">
+                            <param id="0" name="Object">btnamistad</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="198068487707299" type="btnamistad">
+                            <param id="0" name="Animation">&quot;amistad2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="761775377894597">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="435235006629610" type="Mouse">
+                            <param id="0" name="Object">btnamistad</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="541547812488455" type="btnamistad">
+                            <param id="0" name="Animation">&quot;amistad&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="240070007319680">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="204228387853942" type="Mouse">
+                            <param id="0" name="Object">btnbraulio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="585385766534250" type="btnbraulio">
+                            <param id="0" name="Animation">&quot;braulio2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="148971574933067">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="509402923006751" type="Mouse">
+                            <param id="0" name="Object">btnbraulio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="537211297674701" type="btnbraulio">
+                            <param id="0" name="Animation">&quot;braulio&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="419217784240527">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="183351820721430" type="Mouse">
+                            <param id="0" name="Object">btncahuita</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="450730488088294" type="btncahuita">
+                            <param id="0" name="Animation">&quot;cahuita2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="998360785049289">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="877516201167834" type="Mouse">
+                            <param id="0" name="Object">btncahuita</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="726642329663069" type="btncahuita">
+                            <param id="0" name="Animation">&quot;cahuita&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="980676799722716">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="559221843183668" type="Mouse">
+                            <param id="0" name="Object">btncarar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="513965745175641" type="btncarar">
+                            <param id="0" name="Animation">&quot;carara2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="692588012497007">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="191864182204721" type="Mouse">
+                            <param id="0" name="Object">btncarar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="353567777473755" type="btncarar">
+                            <param id="0" name="Animation">&quot;carara&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="443030498496365">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="750913743377925" type="Mouse">
+                            <param id="0" name="Object">btncoco</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="143741729881442" type="btncoco">
+                            <param id="0" name="Animation">&quot;coco2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="399696627293757">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="889847999756178" type="Mouse">
+                            <param id="0" name="Object">btncoco</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="808745977928571" type="btncoco">
+                            <param id="0" name="Animation">&quot;coco&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="569050896111759">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="343125407248643" type="Mouse">
+                            <param id="0" name="Object">btn_corco</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="756889760462322" type="btn_corco">
+                            <param id="0" name="Animation">&quot;corco2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="314572959564465">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="235953944419198" type="Mouse">
+                            <param id="0" name="Object">btnmanuel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="576940784730903" type="btnmanuel">
+                            <param id="0" name="Animation">&quot;manuel&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="295027685019922">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="400579313313727" type="Mouse">
+                            <param id="0" name="Object">btnmanuel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="732329148992132" type="btnmanuel">
+                            <param id="0" name="Animation">&quot;manuel2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="868942098565187">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="902641682994240" type="Mouse">
+                            <param id="0" name="Object">btnballena</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="559637545541814" type="btnballena">
+                            <param id="0" name="Animation">&quot;marino&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="569490463292717">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="458270878082827" type="Mouse">
+                            <param id="0" name="Object">btnballena</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="668790905613102" type="btnballena">
+                            <param id="0" name="Animation">&quot;marino2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="561756665810942">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="843371476244730" type="Mouse">
+                            <param id="0" name="Object">btncarara</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="224253557714509" type="btncarara">
+                            <param id="0" name="Animation">&quot;carara2&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="360065349301423">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="256376790147757" type="Mouse">
+                            <param id="0" name="Object">btncarara</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="449727401139612" type="btncarara">
+                            <param id="0" name="Animation">&quot;carara&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="656156780602878">
+            <conditions>
+                <condition id="3" name="On touched object" sid="245343614618420" type="Touch">
+                    <param id="0" name="Object">btnstart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="482406196761857" type="fondogame1">
+                    <param id="0" name="X">1718</param>
+                    <param id="1" name="Y">384</param>
+                </action>
+                <action id="-3" name="Set position" sid="565341928019935" type="btn_home100">
+                    <param id="0" name="X">1718</param>
+                    <param id="1" name="Y">384</param>
+                </action>
+                <action id="-3" name="Set position" sid="190968535468083" type="missions4">
+                    <param id="0" name="X">1718</param>
+                    <param id="1" name="Y">384</param>
+                </action>
+                <action id="-16" name="Wait" sid="508267848140151" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="617736356511628" type="cuadro">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="882497937531086" type="ballena">
+                    <param id="0" name="X">510</param>
+                    <param id="1" name="Y">386</param>
+                </action>
+                <action id="-15" name="Set visible" sid="391272988465884" type="ballena">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="274506137863376" type="btnballena">
+                    <param id="0" name="X">186</param>
+                    <param id="1" name="Y">734</param>
+                </action>
+                <action id="-3" name="Set position" sid="875261004778294" type="btnmanuel">
+                    <param id="0" name="X">503</param>
+                    <param id="1" name="Y">734</param>
+                </action>
+                <action id="-3" name="Set position" sid="278618938222084" type="btnrincon1">
+                    <param id="0" name="X">787</param>
+                    <param id="1" name="Y">734</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="176629946229378">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="789013735432461" type="Mouse">
+                    <param id="0" name="Object">cuadro</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="955201011917428" type="cuadro">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="601580505712090" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="440504349014837" type="cuadro">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="programacion de popup Ballena" sid="372693912199295" title="Ballena">
+            <sub-events>
+                <event-block sid="558461716077314">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="844150895330845" type="Touch">
+                            <param id="0" name="Object">btnrincon1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="692225558339276" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="795622869563625" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="990013608666155" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="573106788676920" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="831698773976138" type="ballena">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="826442563005045" type="rosa">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="223715638469959" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="203007992820612" type="rosa">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="270016479799647" type="btn_corco">
+                            <param id="0" name="X">153</param>
+                            <param id="1" name="Y">737</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="343354365312418" type="btn_tapanti">
+                            <param id="0" name="X">511</param>
+                            <param id="1" name="Y">733</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="300723882602993" type="btn_santaro">
+                            <param id="0" name="X">832</param>
+                            <param id="1" name="Y">736</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="524524319985671">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="633040639644037" type="Touch">
+                            <param id="0" name="Object">btnmanuel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="397292837265300" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="888168559335841" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="897337826330134" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="795301498076331" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="433727116654107" type="ballena">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="212239634980787" type="rosa">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="445824654114683" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="263498429236706" type="rosa">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="423445521972834" type="btn_corco">
+                            <param id="0" name="X">153</param>
+                            <param id="1" name="Y">737</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="255134203325751" type="btn_tapanti">
+                            <param id="0" name="X">511</param>
+                            <param id="1" name="Y">733</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="548103446344026" type="btn_santaro">
+                            <param id="0" name="X">832</param>
+                            <param id="1" name="Y">736</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="843360176085722">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="694948275634526" type="Touch">
+                            <param id="0" name="Object">btnballena</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="473274107122174" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="117567430724494" type="Audio">
+                            <param id="0" name="Audio file">good job</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;rg&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="970145694744489" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="597287909712112" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="939528563191436" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="758523533310714" type="ballena">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="553191779412922" type="rosa">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="455381875986027" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="695040583015393" type="rosa">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="598749679106769" type="btn_corco">
+                            <param id="0" name="X">153</param>
+                            <param id="1" name="Y">737</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="476976545466390" type="btn_tapanti">
+                            <param id="0" name="X">511</param>
+                            <param id="1" name="Y">733</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="173616342021894" type="btn_santaro">
+                            <param id="0" name="X">832</param>
+                            <param id="1" name="Y">736</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Programación del popup SantaRosa" sid="163755378254862" title="Santa Rosa">
+            <sub-events>
+                <event-block sid="638811594113676">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="209423106132709" type="Touch">
+                            <param id="0" name="Object">btn_santaro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="682955342319008" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="666082319681554" type="Audio">
+                            <param id="0" name="Audio file">good job</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;rg&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="676667122255435" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="123314115647428" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="424959784022934" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="366664163998462" type="rosa">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="135603677832491" type="baula">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="776376481166564" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="571606486501901" type="baula">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="780080629879244" type="btncarar">
+                            <param id="0" name="X">860</param>
+                            <param id="1" name="Y">737</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="191505293146393" type="btnbau">
+                            <param id="0" name="X">513</param>
+                            <param id="1" name="Y">738</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="948770825535929" type="btntortu">
+                            <param id="0" name="X">157</param>
+                            <param id="1" name="Y">736</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="693110858789384">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="219443244657072" type="Touch">
+                            <param id="0" name="Object">btn_tapanti</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="169711880899120" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="418593721147409" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="682269395451909" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="723149756247087" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="251484550706924" type="rosa">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="660763160145756" type="baula">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="629543534643615" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="907023944141764" type="baula">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="251406673388075" type="btncarar">
+                            <param id="0" name="X">860</param>
+                            <param id="1" name="Y">737</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="183287605162958" type="btnbau">
+                            <param id="0" name="X">513</param>
+                            <param id="1" name="Y">738</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="450056415319093" type="btntortu">
+                            <param id="0" name="X">157</param>
+                            <param id="1" name="Y">736</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="943000466216963">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="638715259456615" type="Touch">
+                            <param id="0" name="Object">btn_corco</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="824254392311847" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="174553484030177" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="970855009964394" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="266272013680717" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="318169518602052" type="rosa">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="532997607089864" type="baula">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="858726778979663" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="786659190625689" type="baula">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="289550486819901" type="btncarar">
+                            <param id="0" name="X">860</param>
+                            <param id="1" name="Y">737</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="932778146354228" type="btnbau">
+                            <param id="0" name="X">513</param>
+                            <param id="1" name="Y">738</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="782277819349297" type="btntortu">
+                            <param id="0" name="X">157</param>
+                            <param id="1" name="Y">736</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Programación popup Baullas" sid="169124518829793" title="Baulas">
+            <sub-events>
+                <event-block sid="695526302225229">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="451917584924555" type="Touch">
+                            <param id="0" name="Object">btnbau</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="526585795544393" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="850951611605849" type="Audio">
+                            <param id="0" name="Audio file">good job</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;rg&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="916426727187120" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="842705085476867" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="219519266097530" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="156227448595920" type="baula">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="941131680973450" type="irazu">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="378633601896406" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="250644564730093" type="irazu">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="132111174946919" type="btnirazu">
+                            <param id="0" name="X">856</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="756158477324542" type="btncarara">
+                            <param id="0" name="X">538</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="872543472837698" type="btnbraulio">
+                            <param id="0" name="X">181</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="484259972331848">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="833639239975428" type="Touch">
+                            <param id="0" name="Object">btncarar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="690689382142076" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="507387083306523" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="709017721631498" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="939717612632491" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="237806204634740" type="baula">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="216836792974809" type="irazu">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="935510378441728" type="irazu">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="594872235985779" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="840563623754124" type="btnirazu">
+                            <param id="0" name="X">856</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="887125473752771" type="btncarara">
+                            <param id="0" name="X">538</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="280149636774716" type="btnbraulio">
+                            <param id="0" name="X">181</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="198817752077132">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="698835636486404" type="Touch">
+                            <param id="0" name="Object">btntortu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="208102701173047" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="536677857812913" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="826228867398580" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="124710217855799" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="824913752396673" type="baula">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="553324415868479" type="irazu">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="974447717747186" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="536495846546600" type="irazu">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="198074642398734" type="btnirazu">
+                            <param id="0" name="X">856</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="216739639109239" type="btncarara">
+                            <param id="0" name="X">538</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="970983818290135" type="btnbraulio">
+                            <param id="0" name="X">181</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Programacio  del popup Irazu" sid="839480492265144" title="Irazu">
+            <sub-events>
+                <event-block sid="968138690985573">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="363944261452146" type="Touch">
+                            <param id="0" name="Object">btnirazu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="644861450918807" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="247039351024424" type="Audio">
+                            <param id="0" name="Audio file">good job</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;rg&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="112827476484312" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="737067887289329" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="228078947933041" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="399354243709341" type="irazu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="804164407440390" type="coco">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="107870498651081" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="753285485080183" type="coco">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="220020479275062" type="btncoco">
+                            <param id="0" name="X">175.5</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="465502933428264" type="btncahuita">
+                            <param id="0" name="X">862</param>
+                            <param id="1" name="Y">731</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="710050361560021" type="btnrincon">
+                            <param id="0" name="X">528</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="225480148453357">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="380738426809147" type="Touch">
+                            <param id="0" name="Object">btncarara</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="684534030743907" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="296485041642582" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="768200783798515" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="223771384633628" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="566219350684980" type="irazu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="520644476834324" type="coco">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="458207183491662" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="124525284890427" type="coco">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="951134239881386" type="btncoco">
+                            <param id="0" name="X">175.5</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="791526822911404" type="btncahuita">
+                            <param id="0" name="X">862</param>
+                            <param id="1" name="Y">731</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="117862734993421" type="btnrincon">
+                            <param id="0" name="X">528</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="895940769920721">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="437451101615025" type="Touch">
+                            <param id="0" name="Object">btnbraulio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="843424794562294" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="135604216448292" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="603613364178019" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="284762993311850" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="738053188141954" type="irazu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="471334914651295" type="coco">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="389598918294692" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="489272166549425" type="coco">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="504324005965998" type="btncoco">
+                            <param id="0" name="X">175.5</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="828751088475171" type="btncahuita">
+                            <param id="0" name="X">862</param>
+                            <param id="1" name="Y">731</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="155426048894378" type="btnrincon">
+                            <param id="0" name="X">528</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Programacion del popup Coco" sid="389080269036417" title="Coco">
+            <sub-events>
+                <event-block sid="363554801702678">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="552620640123770" type="Touch">
+                            <param id="0" name="Object">btncoco</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="306668644205294" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="212585803751113" type="Audio">
+                            <param id="0" name="Audio file">good job</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;rg&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="309569192220456" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="341459489545615" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="383822695829435" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="175702272772251" type="coco">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="510086579864225" type="chirri">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="946523542308009" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="103424543047146" type="chirri">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="359456869398441" type="btnchirri">
+                            <param id="0" name="X">862</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="520193690322137" type="btnamistad">
+                            <param id="0" name="X">513</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="632168812379964" type="btnpoas">
+                            <param id="0" name="X">153</param>
+                            <param id="1" name="Y">731</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="138613332549794">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="592657294595376" type="Touch">
+                            <param id="0" name="Object">btncahuita</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="683422857147525" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="453138564107260" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="435515226454706" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="637653951263763" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="592875577881728" type="coco">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="464331151022637" type="chirri">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="666846581572811" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="235050586785017" type="chirri">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="422579216499720" type="btnchirri">
+                            <param id="0" name="X">862</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="865853010495837" type="btnamistad">
+                            <param id="0" name="X">513</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="442681135295114" type="btnpoas">
+                            <param id="0" name="X">153</param>
+                            <param id="1" name="Y">731</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="456607764031702">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="837407267850166" type="Touch">
+                            <param id="0" name="Object">btnrincon</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="459075917866218" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="546958331828684" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="401609390051261" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="894516214197726" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="821049850461193" type="coco">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="169074521382273" type="chirri">
+                            <param id="0" name="X">510</param>
+                            <param id="1" name="Y">386</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="907245556776017" type="cuadro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="927338132830714" type="chirri">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="383136527950979" type="btnchirri">
+                            <param id="0" name="X">862</param>
+                            <param id="1" name="Y">735</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="640997680730903" type="btnamistad">
+                            <param id="0" name="X">513</param>
+                            <param id="1" name="Y">732</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="486542112587830" type="btnpoas">
+                            <param id="0" name="X">153</param>
+                            <param id="1" name="Y">731</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Programacion del popup Chirripo" sid="845781992378362" title="Chirripo">
+            <sub-events>
+                <event-block sid="341691309131641">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="353263510828071" type="Touch">
+                            <param id="0" name="Object">btnchirri</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="968680712203730" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="829893259906898" type="Audio">
+                            <param id="0" name="Audio file">good job</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;rg&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="714461287101503" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="338309468550767" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="357693629995639" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="205898798891939" type="System">
+                            <param id="0" name="Layout">game1over</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="191791222855636" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="0" name="Play" sid="495686564966396" type="Audio">
+                            <param id="0" name="Audio file">verygood (2)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="504209491562720">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="775302296292282" type="Touch">
+                            <param id="0" name="Object">btnamistad</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="289277842150830" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="207241583044801" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="362907941450428" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="326278717768845" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="657680143542541" type="System">
+                            <param id="0" name="Layout">game1over</param>
+                        </action>
+                        <action id="0" name="Play" sid="999811005446393" type="Audio">
+                            <param id="0" name="Audio file">try again</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="924937415306645">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="465150511853811" type="Touch">
+                            <param id="0" name="Object">btnpoas</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="557735226847394" type="Audio">
+                            <param id="0" name="Audio file">oops wrong choise</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="583531000190711" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="784952008512121" type="cuadro">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="506292849549820" type="TODASG1">
+                            <param id="0" name="X">1718</param>
+                            <param id="1" name="Y">384</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="296734698001212" type="System">
+                            <param id="0" name="Layout">game1over</param>
+                        </action>
+                        <action id="0" name="Play" sid="355981230774887" type="Audio">
+                            <param id="0" name="Audio file">try again</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="874363663272147">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="794480758365192" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="178616808624787" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="652363598416360">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="552945708666797" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="234715836252494" type="Audio">
+                    <param id="0" name="Audio file">whatbehind</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

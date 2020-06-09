@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eintro</name>
+    <events>
+        <event-block sid="654229794595374">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="985308437404362" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_home100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="255670273181050" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="33" name="Stop all" sid="297265494247091" type="Audio" />
+            </actions>
+        </event-block>
+        <event-block sid="401324261168561">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="103822388608454" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="297130113557661" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="267410182467024">
+            <conditions>
+                <condition id="-22" name="Else" sid="362842844693969" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="894359383303350" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="150504937647914">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="251173742603801" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="933493899385382" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="0" name="Play" sid="159208230661657" type="Audio">
+                    <param id="0" name="Audio file">intro2</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="258189240120587">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="859929413546925" type="Mouse">
+                    <param id="0" name="Object">btn_home100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="763022421887751" type="btn_home100">
+                    <param id="0" name="Animation">&quot;home2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="426324126550625">
+            <conditions>
+                <condition id="-22" name="Else" sid="503214613690962" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="373214646316456" type="btn_home100">
+                    <param id="0" name="Animation">&quot;home&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

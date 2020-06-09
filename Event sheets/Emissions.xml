@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Emissions</name>
+    <events>
+        <event-group description="" sid="975757853456214" title="AnimacionesBotones" />
+        <event-block sid="509207876238733">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="150061511742272" type="Mouse">
+                    <param id="0" name="Object">mission1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="805933449116506" type="mission1">
+                    <param id="0" name="Animation">&quot;missb&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="819430538227347">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="415801873478590" type="Mouse">
+                    <param id="0" name="Object">mission1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="404029738576576" type="mission1">
+                    <param id="0" name="Animation">&quot;miss1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="811480662172927">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="469108146452520" type="Mouse">
+                    <param id="0" name="Object">mission2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="561610489149762" type="mission2">
+                    <param id="0" name="Animation">&quot;miss2b&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="692280472257967">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="792022803383312" type="Mouse">
+                    <param id="0" name="Object">mission2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="572279566210051" type="mission2">
+                    <param id="0" name="Animation">&quot;miss2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="705386903365456">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="878641129966244" type="Mouse">
+                    <param id="0" name="Object">mission3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="964990263104597" type="mission3">
+                    <param id="0" name="Animation">&quot;miss3b&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="229889003413559">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="100475817681420" type="Mouse">
+                    <param id="0" name="Object">mission3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="830587031916337" type="mission3">
+                    <param id="0" name="Animation">&quot;miss3&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="466547534945244">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="173092923763984" type="Mouse">
+                    <param id="0" name="Object">mission4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="208428260379214" type="mission4">
+                    <param id="0" name="Animation">&quot;miss4b&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="172223829763995">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="796240175546675" type="Mouse">
+                    <param id="0" name="Object">mission4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="204147966760974" type="mission4">
+                    <param id="0" name="Animation">&quot;miss4&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="685042481489085">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="710320735093913" type="Mouse">
+                    <param id="0" name="Object">mission5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="697453797494616" type="mission5">
+                    <param id="0" name="Animation">&quot;miss5b&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="138570857134934">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="802893690461281" type="Mouse">
+                    <param id="0" name="Object">mission5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="250058413820643" type="mission5">
+                    <param id="0" name="Animation">&quot;miss5&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="700245681329310">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="497526990577953" type="Mouse">
+                    <param id="0" name="Object">mission6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="858251840324166" type="mission6">
+                    <param id="0" name="Animation">&quot;miss6b&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="269433083419599">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="244384253610905" type="Mouse">
+                    <param id="0" name="Object">mission6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="687654587712007" type="mission6">
+                    <param id="0" name="Animation">&quot;miss6&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="142387726331225">
+            <conditions>
+                <condition id="3" name="On touched object" sid="724953775181678" type="Touch">
+                    <param id="0" name="Object">btn_home100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="740191265451594" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="582620454976787">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="363632403584380" type="Mouse">
+                    <param id="0" name="Object">btn_home100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="127876863120617" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="420829312976392">
+            <conditions>
+                <condition id="-22" name="Else" sid="739618219122247" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="328189215160718" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942564300894333">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="844295982644169" type="Mouse">
+                    <param id="0" name="Object">manita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="411512114550864" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="556540689536029">
+            <conditions>
+                <condition id="-22" name="Else" sid="927696703850851" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="655811577053200" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="690210341752901" title="Funcion Acomodar-Desacomodar" />
+        <event-block sid="351048596107276">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="564603562371637">
+            <conditions>
+                <condition id="0" name="On function" sid="736371417184625" type="Function">
+                    <param id="0" name="Name">&quot;DesacomodarBotones&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="386791529149615" type="mission1">
+                    <param id="0" name="X">-600</param>
+                    <param id="1" name="Y">-600</param>
+                </action>
+                <action id="-3" name="Set position" sid="794274514902438" type="mission2">
+                    <param id="0" name="X">-600</param>
+                    <param id="1" name="Y">-600</param>
+                </action>
+                <action id="-3" name="Set position" sid="808674906752154" type="mission3">
+                    <param id="0" name="X">-600</param>
+                    <param id="1" name="Y">-600</param>
+                </action>
+                <action id="-3" name="Set position" sid="345138900358804" type="mission4">
+                    <param id="0" name="X">-600</param>
+                    <param id="1" name="Y">-600</param>
+                </action>
+                <action id="-3" name="Set position" sid="210777862111181" type="mission5">
+                    <param id="0" name="X">-600</param>
+                    <param id="1" name="Y">-600</param>
+                </action>
+                <action id="-3" name="Set position" sid="749101561927294" type="mission6">
+                    <param id="0" name="X">-600</param>
+                    <param id="1" name="Y">-600</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="622783983487923">
+            <conditions>
+                <condition id="0" name="On function" sid="261675544791431" type="Function">
+                    <param id="0" name="Name">&quot;AcomodarBotones&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="384201481634306" type="mission1">
+                    <param id="0" name="X">210</param>
+                    <param id="1" name="Y">123</param>
+                </action>
+                <action id="-3" name="Set position" sid="501000251058597" type="mission2">
+                    <param id="0" name="X">504</param>
+                    <param id="1" name="Y">118</param>
+                </action>
+                <action id="-3" name="Set position" sid="510329929924163" type="mission3">
+                    <param id="0" name="X">792</param>
+                    <param id="1" name="Y">118</param>
+                </action>
+                <action id="-3" name="Set position" sid="896041798859496" type="mission4">
+                    <param id="0" name="X">217</param>
+                    <param id="1" name="Y">383</param>
+                </action>
+                <action id="-3" name="Set position" sid="632462996907378" type="mission5">
+                    <param id="0" name="X">518</param>
+                    <param id="1" name="Y">372</param>
+                </action>
+                <action id="-3" name="Set position" sid="318737327739770" type="mission6">
+                    <param id="0" name="X">809</param>
+                    <param id="1" name="Y">376</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="192171086257133" title="Botonera desacomodar" />
+        <event-block sid="241714730586828">
+            <conditions>
+                <condition id="3" name="On touched object" sid="637422935677019" type="Touch">
+                    <param id="0" name="Object">mission1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="957891842605388" type="Audio">
+                    <param id="0" name="Audio file">mission1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="853604146895985" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="994118541759554" type="Audio">
+                    <param id="0" name="Audio file">tortuguero</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="895320388033504" type="popupmiss1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="966607565793840" type="Function">
+                    <param id="0" name="Name">&quot;DesacomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-3" name="Set position" sid="285007297927765" type="link1">
+                    <param id="0" name="X">162</param>
+                    <param id="1" name="Y">148</param>
+                </action>
+                <action id="-3" name="Set position" sid="108034251584939" type="link2">
+                    <param id="0" name="X">164</param>
+                    <param id="1" name="Y">540</param>
+                </action>
+                <action id="-3" name="Set position" sid="484521370063008" type="link3">
+                    <param id="0" name="X">706</param>
+                    <param id="1" name="Y">541</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="179841573190191">
+            <conditions>
+                <condition id="3" name="On touched object" sid="316699658826012" type="Touch">
+                    <param id="0" name="Object">Xmiss1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="213060073043475" type="Function">
+                    <param id="0" name="Name">&quot;AcomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="892903960432985" type="popupmiss1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="598007929206522">
+            <conditions>
+                <condition id="3" name="On touched object" sid="160408611745892" type="Touch">
+                    <param id="0" name="Object">mission2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="510109364572316" type="Audio">
+                    <param id="0" name="Audio file">mission2</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="987433156183863" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="390561923861382" type="Audio">
+                    <param id="0" name="Audio file">discover</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="284934452699317" type="popupmiss2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="126845718439907" type="Function">
+                    <param id="0" name="Name">&quot;DesacomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-3" name="Set position" sid="601451052216905" type="link4">
+                    <param id="0" name="X">191</param>
+                    <param id="1" name="Y">518</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="267777004734127">
+            <conditions>
+                <condition id="3" name="On touched object" sid="231790494879299" type="Touch">
+                    <param id="0" name="Object">Xmiss2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="207380522981741" type="Function">
+                    <param id="0" name="Name">&quot;AcomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="421199308231235" type="popupmiss2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="429296125408029">
+            <conditions>
+                <condition id="3" name="On touched object" sid="868097305471970" type="Touch">
+                    <param id="0" name="Object">mission3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="216266484928458" type="Audio">
+                    <param id="0" name="Audio file">mission3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="426203209959579" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="236998739123745" type="Audio">
+                    <param id="0" name="Audio file">monkeys_bananas</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="694802831798410" type="popupmiss3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="537084418184838" type="Function">
+                    <param id="0" name="Name">&quot;DesacomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-3" name="Set position" sid="904970010865923" type="link5">
+                    <param id="0" name="X">202</param>
+                    <param id="1" name="Y">369</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="494133104772159">
+            <conditions>
+                <condition id="3" name="On touched object" sid="682717062699994" type="Touch">
+                    <param id="0" name="Object">Xmiss3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="858161466771432" type="Function">
+                    <param id="0" name="Name">&quot;AcomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="648180649942939" type="popupmiss3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="560008896547707">
+            <conditions>
+                <condition id="3" name="On touched object" sid="794629075653156" type="Touch">
+                    <param id="0" name="Object">mission4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="175869392642389" type="Audio">
+                    <param id="0" name="Audio file">mission4</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="512274112527082" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="231444249112635" type="Audio">
+                    <param id="0" name="Audio file">dos_donts</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="538020066356854" type="popupmiss4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="830245215344306" type="Function">
+                    <param id="0" name="Name">&quot;DesacomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-3" name="Set position" sid="726152491312798" type="link6">
+                    <param id="0" name="X">217</param>
+                    <param id="1" name="Y">431</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="692889450103145">
+            <conditions>
+                <condition id="3" name="On touched object" sid="934156679701262" type="Touch">
+                    <param id="0" name="Object">Xmiss4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="101931807094496" type="Function">
+                    <param id="0" name="Name">&quot;AcomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="132575230861505" type="popupmiss4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="103312106769624">
+            <conditions>
+                <condition id="3" name="On touched object" sid="427342249194017" type="Touch">
+                    <param id="0" name="Object">mission5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="180192929360113" type="Audio">
+                    <param id="0" name="Audio file">mission5</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="377561444741442" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="210278811817913" type="Audio">
+                    <param id="0" name="Audio file">match_actions</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="690386009493708" type="popupmiss5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="919799517696126" type="Function">
+                    <param id="0" name="Name">&quot;DesacomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-3" name="Set position" sid="521611429933210" type="link7">
+                    <param id="0" name="X">217</param>
+                    <param id="1" name="Y">468</param>
+                </action>
+                <action id="-3" name="Set position" sid="459111817585690" type="link8">
+                    <param id="0" name="X">629</param>
+                    <param id="1" name="Y">420</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="204376254740314">
+            <conditions>
+                <condition id="3" name="On touched object" sid="801583397039623" type="Touch">
+                    <param id="0" name="Object">Xmiss5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="306228396240664" type="Function">
+                    <param id="0" name="Name">&quot;AcomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="571597874332873" type="popupmiss5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="122120488685446">
+            <conditions>
+                <condition id="3" name="On touched object" sid="254035934646014" type="Touch">
+                    <param id="0" name="Object">mission6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="804682135154528" type="Audio">
+                    <param id="0" name="Audio file">mission6</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="730987644175170" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="897033073446056" type="Audio">
+                    <param id="0" name="Audio file">reading_time</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="700477585239343" type="popupmiss6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="661626362748080" type="Function">
+                    <param id="0" name="Name">&quot;DesacomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-3" name="Set position" sid="519942489185925" type="link9">
+                    <param id="0" name="X">360</param>
+                    <param id="1" name="Y">552.5</param>
+                </action>
+                <action id="-3" name="Set position" sid="969667620255462" type="link10">
+                    <param id="0" name="X">753.5</param>
+                    <param id="1" name="Y">555</param>
+                </action>
+                <action id="-3" name="Set position" sid="210689364745522" type="link11">
+                    <param id="0" name="X">381</param>
+                    <param id="1" name="Y">372</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="410835211824003">
+            <conditions>
+                <condition id="3" name="On touched object" sid="274720770396333" type="Touch">
+                    <param id="0" name="Object">Xmiss6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="156651574496205" type="Function">
+                    <param id="0" name="Name">&quot;AcomodarBotones&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="107301919668029" type="popupmiss6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="898225229280195" title="Links extternos y internos" />
+        <event-block sid="570978769445487">
+            <conditions>
+                <condition id="3" name="On touched object" sid="526765703033370" type="Touch">
+                    <param id="0" name="Object">link1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="522228033194973" type="Browser">
+                    <param id="0" name="URL">&quot;https://www.youtube.com/watch?v=SIqrD_brIVQ&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="840069556922225">
+            <conditions>
+                <condition id="3" name="On touched object" sid="251945738583916" type="Touch">
+                    <param id="0" name="Object">link2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="633763626896545" type="Browser">
+                    <param id="0" name="URL">&quot;https://mytanfeet.com/costa-rica-national-park/tortuguero-national-park/&#x0D;&#x0A;&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="206898655152629">
+            <conditions>
+                <condition id="3" name="On touched object" sid="443176237750605" type="Touch">
+                    <param id="0" name="Object">link3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="203106068009538" type="Browser">
+                    <param id="0" name="URL">&quot;http://recursos.mep.go.cr/2020/pdf/chart.pdf&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="816821465332531">
+            <conditions>
+                <condition id="3" name="On touched object" sid="996266241731268" type="Touch">
+                    <param id="0" name="Object">link4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="453955580458724" type="System">
+                    <param id="0" name="Layout">game1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="704093210200367">
+            <conditions>
+                <condition id="3" name="On touched object" sid="586835159933802" type="Touch">
+                    <param id="0" name="Object">link5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="680265617811270" type="System">
+                    <param id="0" name="Layout">game2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="516328634182059">
+            <conditions>
+                <condition id="3" name="On touched object" sid="625674838640356" type="Touch">
+                    <param id="0" name="Object">link6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="500204017396259" type="System">
+                    <param id="0" name="Layout">game3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="440305105758311">
+            <conditions>
+                <condition id="3" name="On touched object" sid="705873681258210" type="Touch">
+                    <param id="0" name="Object">link7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="577395348575183" type="System">
+                    <param id="0" name="Layout">game4a</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="276693345125343">
+            <conditions>
+                <condition id="3" name="On touched object" sid="164215489385547" type="Touch">
+                    <param id="0" name="Object">link8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="814533038370489" type="System">
+                    <param id="0" name="Layout">game4b</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="187209364400761">
+            <conditions>
+                <condition id="3" name="On touched object" sid="909920121058376" type="Touch">
+                    <param id="0" name="Object">link9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="447867645033370" type="Browser">
+                    <param id="0" name="URL">&quot;https://www.rainforest-alliance.org/sites/default/files/2016-08/clara-and-armadillo.pdf&#x0D;&#x0A;&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="721989250213913">
+            <conditions>
+                <condition id="3" name="On touched object" sid="206688816871294" type="Touch">
+                    <param id="0" name="Object">link10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="305837370086933" type="Browser">
+                    <param id="0" name="URL">&quot;https://www.rainforest-alliance.org/sites/default/files/2016-08/mydadtheranger.pdf&#x0D;&#x0A;&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="520121772493720">
+            <conditions>
+                <condition id="3" name="On touched object" sid="573600812388561" type="Touch">
+                    <param id="0" name="Object">link11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="247329174161017" type="Browser">
+                    <param id="0" name="URL">&quot;https://kahoot.it&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

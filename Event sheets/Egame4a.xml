@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Egame4a</name>
+    <events>
+        <variable constant="0" name="completados" sid="929555441276021" static="0" type="number">0</variable>
+        <event-block sid="511521880115128">
+            <conditions>
+                <condition behavior="DragDrop2" id="2" name="On drop" sid="649159425573085" type="op1" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="831051035287678">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="153698535719041" type="op1">
+                            <param id="0" name="Object">cswimming</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="134662132129607" type="Audio">
+                            <param id="0" name="Audio file">verygood (2)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="977357527648253" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="382593032754063" type="System">
+                            <param id="0" name="Variable">completados</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="DragDrop2" id="0" name="Set enabled" sid="981609178549222" type="op1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="305853165569408" type="Function">
+                            <param id="0" name="Name">&quot;gameover&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="276286638504306">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="148368583005651" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="318154546175294" type="op1">
+                            <param id="0" name="X">116</param>
+                            <param id="1" name="Y">479</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="667846276333275" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="124237026184976">
+            <conditions>
+                <condition behavior="DragDrop2" id="2" name="On drop" sid="519018838718134" type="op2" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="992772703187405">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="719846991612956" type="op2">
+                            <param id="0" name="Object">cwalking</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="196830434339409" type="Audio">
+                            <param id="0" name="Audio file">verygood (2)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="938696106100834" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="145188931005523" type="System">
+                            <param id="0" name="Variable">completados</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="DragDrop2" id="0" name="Set enabled" sid="142946035281377" type="op2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="253862603356656" type="Function">
+                            <param id="0" name="Name">&quot;gameover&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="646145424092595">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="465936045370047" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="475035401743386" type="op2">
+                            <param id="0" name="X">114</param>
+                            <param id="1" name="Y">571</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="728278504008396" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="124372253061296">
+            <conditions>
+                <condition behavior="DragDrop2" id="2" name="On drop" sid="346504382208458" type="op3" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="821232192150249">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="108981220541034" type="op3">
+                            <param id="0" name="Object">crunning</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="701342554153800" type="Audio">
+                            <param id="0" name="Audio file">verygood (2)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="768417671960629" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="690189670654954" type="System">
+                            <param id="0" name="Variable">completados</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="DragDrop2" id="0" name="Set enabled" sid="796430880570401" type="op3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="481129490372918" type="Function">
+                            <param id="0" name="Name">&quot;gameover&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="959760827429978">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="754582438193139" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="470114429304334" type="op3">
+                            <param id="0" name="X">621</param>
+                            <param id="1" name="Y">483</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="483662040829924" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="246957220303963">
+            <conditions>
+                <condition behavior="DragDrop2" id="2" name="On drop" sid="877502209456869" type="op4" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="424985604835473">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="832172666076276" type="op4">
+                            <param id="0" name="Object">csliding</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="247498862006445" type="Audio">
+                            <param id="0" name="Audio file">verygood (2)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="987755963617319" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="321000746573049" type="System">
+                            <param id="0" name="Variable">completados</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="DragDrop2" id="0" name="Set enabled" sid="289872210306106" type="op4">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="792922395396657" type="Function">
+                            <param id="0" name="Name">&quot;gameover&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="382622587473482">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="445466316572689" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="277702132588305" type="op4">
+                            <param id="0" name="X">624</param>
+                            <param id="1" name="Y">567</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="215019807052275" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="180571607548492" title="función fin de juego">
+            <sub-events>
+                <event-block sid="212186636798739">
+                    <conditions>
+                        <condition id="0" name="On function" sid="747918986403688" type="Function">
+                            <param id="0" name="Name">&quot;gameover&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="565116715083834">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="367268976027324" type="System">
+                                    <param id="0" name="Variable">completados</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="720730702843043">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="155072853325701" type="System">
+                                            <param id="0" name="Variable">Score</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="345576291163278" type="System">
+                                            <param id="0" name="Layout">fonwin5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="706995047503251">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="748154354007486" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="356145912051567" type="System">
+                                            <param id="0" name="Layout">fonlost5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="575286676019085" title="Setup Game">
+            <sub-events>
+                <comment>Reseteo de variables cuando carga la pantalla</comment>
+                <event-block sid="265122199594138">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="667728565528431" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="862082951785311" type="System">
+                            <param id="0" name="Variable">completados</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="959571760680085" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
