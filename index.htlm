@@ -8,7 +8,7 @@
 
 <script>
 function cargarDemo() {
-  window.location.replace("./demo/index.html");
+  window.location.replace("./Demo/index.html");
 }
 </script>
 
